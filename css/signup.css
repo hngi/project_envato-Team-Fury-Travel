@@ -2,7 +2,8 @@ body {
     background-color: #333333;
 }
 
-.container {
+
+.container-fluid {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -13,23 +14,41 @@ body {
     margin-bottom: 10rem;
     margin-top: 8rem;
     width: 651px;
-    height: 712px;
+    height: auto;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+label,
+p {
+    color: #444444;
 }
 
 input[type=text] {
     background-color: #F2F2F2;
+    height: 2.5rem;
 }
 
 input[type=email] {
     background-color: #F2F2F2;
+    height: 2.5rem;
 }
 
 input[type=password] {
     background-color: #F2F2F2;
+    height: 2.5rem;
+}
+
+input[type=checkbox] {
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .custom-select {
     background: #F2F2F2;
+    height: 2.5rem;
 }
 
 select:selected {
@@ -45,7 +64,7 @@ select:selected {
 .register__button {
     background-color: #FF1D58;
     color: white;
-    width: 40rem;
+    width: 30rem;
     align-content: center;
 }
 
