@@ -27,6 +27,7 @@ body {
     width: 651px;
     height: 100%;
     font-size: small;
+    margin-left: 2px;
 }
 
 ::placeholder {
