@@ -93,3 +93,27 @@ select:selected {
 .hng {
     color: white;
 }
+
+@media (min-width:576px) {
+    .card {
+        margin-bottom: 0rem;
+    }
+}
+
+@media (min-width:768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width:992px) {
+    .card {
+        margin-bottom: 5rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .card {
+        margin-bottom: 5px;
+    }
+}
