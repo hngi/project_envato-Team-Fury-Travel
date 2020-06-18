@@ -1,5 +1,12 @@
 body {
     background-color: #333333;
+    display: block;
+    height: fit-content;
+    
+}
+
+.col-md-4 {
+    display: flex;
 }
 
 
@@ -12,9 +19,14 @@ body {
 .card {
     border-radius: 2rem;
     margin-bottom: 10rem;
-    margin-top: 8rem;
+    margin-top: 2rem;
     width: 651px;
-    height: auto;
+    height: 100%;
+    font-size: small;
+}
+
+::placeholder {
+    font-size: small;
 }
 
 h1 {
@@ -28,17 +40,17 @@ p {
 
 input[type=text] {
     background-color: #F2F2F2;
-    height: 2.5rem;
+    height: 2rem;
 }
 
 input[type=email] {
     background-color: #F2F2F2;
-    height: 2.5rem;
+    height: 2rem;
 }
 
 input[type=password] {
     background-color: #F2F2F2;
-    height: 2.5rem;
+    height: 2rem;
 }
 
 input[type=checkbox] {
@@ -48,7 +60,8 @@ input[type=checkbox] {
 
 .custom-select {
     background: #F2F2F2;
-    height: 2.5rem;
+    height: 2rem;
+    font-size: small;
 }
 
 select:selected {
@@ -64,7 +77,7 @@ select:selected {
 .register__button {
     background-color: #FF1D58;
     color: white;
-    width: 30rem;
+    width: 25rem;
     align-content: center;
 }
 
