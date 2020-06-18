@@ -18,8 +18,8 @@ body {
 
 .card {
     border-radius: 2rem;
-    margin-bottom: 5rem;
-    margin-top: 2rem;
+    /* margin-bottom: 5rem; */
+    /* margin-top: 2rem; */
     width: 651px;
     height: 100%;
     font-size: small;
@@ -94,7 +94,7 @@ select:selected {
     color: white;
 }
 
-@media (min-width:576px) {
+/* @media (min-width:576px) {
     .card {
         margin-bottom: 0rem;
     }
@@ -116,4 +116,4 @@ select:selected {
     .card {
         margin-bottom: 5px;
     }
-}
+} */
