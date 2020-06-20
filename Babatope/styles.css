@@ -112,8 +112,8 @@
 [type="checkbox"]:checked + label:after {
   content: '\2713\0020';
   position: absolute;
-  top: .15em; left: .22em;
-  font-size: 1.3em;
+  top: .0001em; left: .10em;
+  font-size: 1.6em;
   line-height: 0.8;
   color: #ff1d59cb;
   transition: all .2s;
@@ -133,7 +133,8 @@
 [type="checkbox"]:disabled:checked + label:before {
   box-shadow: none;
   border-color: #bbb;
-  background-color: #ddd;
+  background-color: #f2f2f2;
+  border-radius: 5px;
 }
 [type="checkbox"]:disabled:checked + label:after {
   color: #999;
