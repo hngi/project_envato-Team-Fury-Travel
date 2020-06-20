@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./imgs/pascal-bernardon-Y4vRJjmpsJ8-unsplash 1.png"></script>
     <title>Tour</title>
-    <link href="./css/customize.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" />
-    <script src=""></script>
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-    <script src="/assets/jquery/jquery-3.5.1.min.js"></script>
-    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/assets/font awsome/js/all.js"></script>
     
-    <script src="/assets/popper/popper.min.js"></script>
+    
+    <script src="./assets/font awsome/js/all.js"></script>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Core theme CSS-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="./css/tour_list_tour_detail.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/partial.css">
+    
     
 
 
@@ -24,44 +28,43 @@
     <div class="header-ovelay " > 
       <!-- nav -->
       <div class="">
-        <nav class="navbar navbar-expand-lg navbar-light opacity px-5 ">
-          <a class="navbar-brand" href="#">
-            <!-- logo -->
-            <img src="./images/log.svg" alt="" srcset="">
-          </a>
-          <!-- toggle button -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- nav link -->
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto " ">
-              <li class="nav-item mr-xl-3 ml-xl-2">
-                <a class="nav-link text-white " href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item mr-xl-3 ml-xl-2">
-                <a class="nav-link text-white " href="#">About us</a>
-              </li>
-              <li class="nav-item mr-xl-3 ml-xl-2 dropdown">
-                  <a class="nav-link text-white " href="#">Contact us <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item mr-xl-3 ml-xl-2">
-                <a class="nav-link text-white  " href="#" tabindex="-1" aria-disabled="true">Tours</a>
-              </li>
-              <li class="nav-item mr-xl-3 ml-xl-2">
-                <a class="nav-link text-white  " href="#" tabindex="-1" aria-disabled="true">Destinations</a>
-              </li>
-              <li class="nav-item mr-xl-3 ml-xl-2">
-                <a class="nav-link text-white  " href="#" tabindex="-1" aria-disabled="true">Blog</a>
-              </li>
-             
-            </ul>
-            <form style="font-size: 20px;" class="form-inline my-2 my-lg-0">
-              
-              <a  class="bg-primary-color text-white rounded py-2 px-4 text-decoration-none"  href=#>SIGN IN</a>
-            </form>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top " id="mainNav">
+          <div class="container"><a class="navbar-brand" href="#"> Explore <span class="brand-color">Net <span> </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav  ml-auto text-center">
+                      <li class="nav-item  ">
+                          <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#"> About Us </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#newsletters">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./tour.html">Tours</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./destinations.html">Destinations</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#destinations">Blog</a>
+                      </li>
+                      <li class="nav-item ">
+                          <a class="signin_anchor" href="./login.html">
+                              <button class="nav-link btn btn-navbar btn-block"> SIGN IN </button>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
           </div>
-        </nav>
+      </nav>
+      <!-- Navbar -->
       </div>
         <div class=" pt-5 mt-3">
           <h1 class="text-center py-4 display-4 font-weight-bold text-white">Tour Details</h1>
@@ -266,74 +269,61 @@
       <img class="col my-4" src="./images/tour/Tourimage3.png" alt="">
     </div>
   </main>
-  <!-- footer -->
-    <footer class="footer">
-      <div class="container">
-          <div class="footer__logo w-100 pt-4">
-              <p class=" text-center mb-5" href="#"> <img src="./images/log.svg" alt="" srcset=""></p>
-          </div>
-          <div class="row py-5">
-            <div class="col-xl-4 text-white">
-              <h4>Sign up for our Newslatter</h4>
-              <p class="font-wieght-lighter">Get Critical Knowledege on our discounts and travel opportunities</p>
+  <!--Footer -->
+  <footer class="footer">
+    <div class="container">
+        <div class="footer__logo w-100 ">
+            <p class=" text-center mb-5" href="#"> Explore <span class="brand-color">Net <span> </p>
+        </div>
+        <div class="row footers__lists ">
+            <div class="col-md-3 footers__list1 ">
+                <ul>
+                    <li> <a href="#"> Home </a></li>
+                    <li> <a href="#"> About us</a></li>
+                    <li> <a href="#newsletters"> Contact Us </a></li>
+                </ul>
             </div>
-            <div class="col-xl-4"></div>
-            
-            <div class="col-xl-4 text-white">
-              <h4>Your Email</h4>
-              <div class="d-flex align-items-center">
-                <input class="form-control rounded-0 form-co mr-1" type="text" placeholder="example@email.com">
-                <div>
-                  <button type="button" class="btn bg-primary-color text-white ml-1 rounded-0 ">Subscribe</button>
-                </div>
-              </div>
+            <div class="col-md-3 footers__list2 mb-5">
+                <ul>
+                    <li> <a href="#destinations"> Destinations </a></li>
+                    <li> <a href="#tours"> Tours </a></li>
+                    <li> <a href="#"> Blog </a></li>
+                </ul>
             </div>
-          </div>
-          <div class="row footers__lists ">
-              <div class="col-md-3 footers__list1 ">
-                  <ul>
-                      <li> <a href="#"> Home </a></li>
-                      <li> <a href="#"> About us</a></li>
-                      <li> <a href="#newsletters"> Contact Us </a></li>
-                  </ul>
-              </div>
-              <div class="col-md-3 footers__list2 mb-5">
-                  <ul>
-                      <li> <a href="#destinations"> Destinations </a></li>
-                      <li> <a href="#tours"> Tours </a></li>
-                      <li> <a href="#"> Blog </a></li>
-                  </ul>
-              </div>
-              <div class="col-md-3 ml-auto">
-                  <ul class="ml-4">
-                      <li> <i class="fas fa-map-marker-alt footer__icon"></i>
-                          <div>
-                              2464 Royal Ln. Mesa, New Jersey 45463
-                          </div>
-                      </li>
-                      <li> <i class="fas fa-phone-alt footer__icon"></i> (208) 555-0112</li>
-                      <li> <i class="fas fa-envelope footer__icon"></i> info@explorenet.com
-                      </li>
-                  </ul>
-              </div>
-          </div>
-          <p class=" footer__social text-center mb-3" href="#"> Follow us on social media for more updates </p>
-          <div class="footer__socialIcons text-center">
-              <a href="#"> <i class="fab fa-instagram mr-5"></i> </a>
-              <a href="#"> <i class="fab fa-twitter mr-5"></i> </a>
-              <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-          </div>
-          <p class=" footer__social small text-left mb-0" href="#"> copyright @explorenet 2020 </p>
-      </div>
+            <div class="col-md-3 ml-auto">
+                <ul class="ml-4">
+                    <li> <i class="fas fa-map-marker-alt footer__icon"></i>
+                        2464 Royal Ln. Mesa, New Jersey 45463
+                    </li>
+                    <li> <i class="fas fa-phone-alt footer__icon"></i> (208) 555-0112</li>
+                    <li> <i class="fas fa-envelope footer__icon"></i> info@explorenet.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class=" footer__social text-center mb-3" href="#"> Follow us on social media for more updates </p>
+        <div class="footer__socialIcons text-center">
+            <a href="#"> <i class="fab fa-instagram mr-5"></i> </a>
+            <a href="#"> <i class="fab fa-twitter mr-5"></i> </a>
+            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+        </div>
+        <p class=" footer__social small mt-2 mb-0 footer__copy" href="#"> copyright @explorenet 2020 </p>
+        <!-- Back to Top Button -->
+        <a id="back-to-top__footer" href="#" class="back-to-top__footer" role="button">
+            <i class="fas fa-arrow-up backIcon"></i>
+        </a>
 
-  </footer>
-  
-    <!-- Menu Toggle Script -->
-    <script>
-      $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-      });
-    </script>
+        <!-- Back to Top Button -->
+
+    </div>
+
+</footer>
+
+<!-- Bootstrap JS Links  -->
+<script src="./assets/jquery//jquery-3.5.1.min.js"></script>
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="./assets/popper/popper.min.js"></script>
+<script src="./js/app.js"></script>
+<!-- Javascript Link -->
 </body>
 </html>
