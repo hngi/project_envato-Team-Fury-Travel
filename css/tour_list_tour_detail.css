@@ -168,7 +168,7 @@ background-color: #ff1d58 !important;
   background-attachment: scroll;
   padding-top: 12rem;
   padding-bottom: 6rem;
-  max-width: 1440px;
+  /* max-width: 1440px; */
 }
 
 .banner__hero-tour-detail {
@@ -181,7 +181,7 @@ background-color: #ff1d58 !important;
   background-attachment: scroll;
   padding-top: 12rem;
   padding-bottom: 6rem;
-  max-width: 1440px;
+  /* max-width: 1440px; */
 }
 
 .book-input {
