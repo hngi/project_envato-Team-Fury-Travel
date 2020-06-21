@@ -191,6 +191,7 @@ background-color: #ff1d58 !important;
 
 .book-input::placeholder {
   font-size: 1.3rem;
+
   /* font-weight: normal; */
   color: black;
   font-weight: 300;
