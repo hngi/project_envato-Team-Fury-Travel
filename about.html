@@ -22,7 +22,7 @@
 <body class="wrapper__page">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top " id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#"> Explore <span class="brand-color">Net <span> </a>
+        <div class="container"><a class="navbar-brand" href="./index.html"> Explore <span class="brand-color">Net <span> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,9 +48,19 @@
                         <a class="nav-link" href="./blog.html">Blog</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="signin_anchor" href="./login.html">
-                            <button class="nav-link btn btn-navbar btn-block"> SIGN IN </button>
-                        </a>
+                        <div class="dropdown">
+                            <button class="btn nav-link btn btn-navbar btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Auth Pages
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="./auth_pages/register.html">signup</a>
+                                <a class="dropdown-item" href="./auth_pages/login.html">signin</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-1.html">reset password</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-4.html">reset confirm</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-2.html">new password</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-3.html">reset successful</a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>

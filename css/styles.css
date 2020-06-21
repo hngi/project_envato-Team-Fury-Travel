@@ -56,6 +56,18 @@ body {
   color: #ffffff;
 }
 
+.dropdown-item {
+  color: #1d18187d !important;
+  text-align: left;
+  justify-content: left;
+}
+
+@media screen and (min-width: 550px) {
+  .dropdown-menu {
+    margin-left: 20px;
+  }
+}
+
 .nav-item {
   margin: 1rem 0.9rem;
 }
