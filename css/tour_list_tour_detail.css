@@ -191,6 +191,7 @@ background-color: #ff1d58 !important;
 
 .book-input::placeholder {
   font-size: 1.3rem;
+
   /* font-weight: normal; */
   color: black;
   font-weight: 300;
@@ -213,4 +214,8 @@ font-size: 1.2rem;
 .tour-price {
 top: 20px;
 left: 30px;
+}
+
+.nav-link {
+  font-size: 1rem;
 }
