@@ -261,6 +261,9 @@
 		.info__holder {
 			padding: 20px !important;
 		}
+		.form__btn {
+			padding: 10px !important;
+		}
 	}
 	@media(max-width: 450px){
 		.carousel-inner{
