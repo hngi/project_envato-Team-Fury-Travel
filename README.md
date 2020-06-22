@@ -9,7 +9,6 @@
     6. Once you are done working run "git pull" locally.
     7. Push your code to the repository.
     8. Make a Pull request for the master branch. 
-    9. Stop there. Do not merge your PR. **Very important**.
 
 ## Design
     https://www.figma.com/file/nNibMGE90jLTT0SLKeQjTN/Travel-Website-template?node-id=119%3A2
@@ -34,8 +33,8 @@ The application was deployed to netlify.
 
 ##  Authors
 
+* **Raphael Ehindero**  (https://github.com/raph941) - Slack Username: **@Ralph**
 * **Wendy Munyasi**  (https://github.com/wendymunyasi) - Slack Username: **@__wendy**
-* **Raphael Ehindero**  (https://github.com/raph941) - Slack Username: **@@Ralph**
 * **Arogunjo Babatope E**  (https://github.com/babatee199) - Slack Username: **@babatope**
 * **Lucas Gomez**  (https://github.com/gomezlucas) - Slack Username: **@LucasD**
 * **David Ozokoye**  (https://github.com/gyrationtechs) - Slack Username: **@ndo**
