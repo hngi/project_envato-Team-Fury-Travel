@@ -66,6 +66,13 @@
     background: #ff1d59cb;
   }
 
+  @media screen and (max-width: 550px) {
+    .card__wrapper {
+      padding:10px !important;
+      width: 100% !important;
+    }
+  }
+
 
   /* --------------------------------------------------------------------- */
 
