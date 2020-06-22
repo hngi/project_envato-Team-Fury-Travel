@@ -14,3 +14,6 @@ Collaboration Instructions:
     7. push your code to the repository
     8. make a Pull request to the master branch. 
     9. stop there. do not merge your PR *very important.
+
+## Design
+    https://www.figma.com/file/nNibMGE90jLTT0SLKeQjTN/Travel-Website-template?node-id=119%3A2
