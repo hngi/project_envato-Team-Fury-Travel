@@ -13,7 +13,6 @@
   <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Core theme CSS-->
   <link href="./css/styles.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/partial2.css" />
   <link rel="stylesheet" href="./css/blog_details.css">
   <title> Blog Details </title>
 </head>
@@ -45,10 +44,20 @@
           <li class="nav-item">
             <a class="nav-link" href="./blog.html">Blog</a>
           </li>
-          <li class="nav-item">
-            <a class="signin_anchor" href="./login.html">
-              <button class="nav-link btn btn-navbar btn-block"> SIGN IN </button>
-            </a>
+          <li class="nav-item ">
+              <div class="dropdown">
+                  <button class="btn nav-link btn btn-navbar btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Auth Pages
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="./auth_pages/register.html">signup</a>
+                      <a class="dropdown-item" href="./auth_pages/login.html">signin</a>
+                      <a class="dropdown-item" href="./auth_pages/forgetpassword-1.html">reset password</a>
+                      <a class="dropdown-item" href="./auth_pages/forgetpassword-4.html">reset confirm</a>
+                      <a class="dropdown-item" href="./auth_pages/forgetpassword-2.html">new password</a>
+                      <a class="dropdown-item" href="./auth_pages/forgetpassword-3.html">reset successful</a>
+                  </div>
+              </div>
           </li>
         </ul>
       </div>
@@ -64,8 +73,11 @@
     </div>
   </header>
   <!-- Hero -->
- 
-
+ <!-- Back to Top Button -->
+  <a id="back-to-top" href="#" class="back-to-top" role="button">
+    <i class="fas fa-arrow-up backIcon"></i>
+  </a>
+  <!-- Back to Top Button -->
   <!-- Your content starts here-->
 <!-- start of solo travellers section -->
 <section>
@@ -203,7 +215,6 @@
                 <h6><strong class="ways__to__travel">Ways to travel</strong></h6>
                 <p class="travel__tips">magna justo, lacinia eget consectetur sed.</p>
               </div>
-              
             </div>
           </div>
         </div>

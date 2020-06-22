@@ -25,7 +25,7 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top " id="mainNav">
-    <div class="container"><a class="navbar-brand" href="#"> Explore <span class="brand-color">Net <span> </a>
+    <div class="container"><a class="navbar-brand" href="./index.html"> Explore <span class="brand-color">Net <span> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,10 +51,20 @@
                     <a class="nav-link" href="./blog.html">Blog</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="signin_anchor" href="./login.html">
-                        <button class="nav-link btn btn-navbar btn-block"> SIGN IN </button>
-                    </a>
-                </li>
+                        <div class="dropdown">
+                            <button class="btn nav-link btn btn-navbar btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Auth Pages
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="./auth_pages/register.html">signup</a>
+                                <a class="dropdown-item" href="./auth_pages/login.html">signin</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-1.html">reset password</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-4.html">reset confirm</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-2.html">new password</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-3.html">reset successful</a>
+                            </div>
+                        </div>
+                    </li>
             </ul>
         </div>
     </div>
@@ -161,7 +171,7 @@
               <div class="card mb-5 custom-mh" >
                 <div class="position-relative">
                   <a href="./tour-detail.html">
-                    <img src="./images/tour/victoria_and_alfred_waterfront 1.png" class="card-img-top"  alt="...">
+                    <img src="./img/tour/victoria_and_alfred_waterfront 1.png" class="card-img-top"  alt="...">
                   </a>
                   <p  class="tour-price rounded-pill py-1 px-3 position-absolute bg-primary-color text-white rounded">$ 100k</p>
                 </div>
@@ -194,7 +204,7 @@
               <div class="card mb-5 custom-mh" >
                 <div class="position-relative">
                   <a href="./tour-detail.html">
-                    <img src="./images/tour/durban 1.png" class="card-img-top"  alt="...">
+                    <img src="./img/tour/durban 1.png" class="card-img-top"  alt="...">
                   </a>
                   <p  class="tour-price rounded-pill py-1 px-3 position-absolute bg-primary-color text-white rounded">$ 100k</p>
                 </div>
@@ -226,7 +236,7 @@
               <div class="card mb-5 custom-mh" >
                 <div class="position-relative">
                   <a href="./tour-detail.html">
-                    <img src="./images/tour/knysna 1.png" class="card-img-top"  alt="...">
+                    <img src="./img/tour/knysna 1.png" class="card-img-top"  alt="...">
                   </a>
                   <p  class="tour-price rounded-pill py-1 px-3 position-absolute bg-primary-color text-white rounded">$ 100k</p>
                 </div>
@@ -258,7 +268,7 @@
               <div class="card mb-5 custom-mh" >
                 <div class="position-relative">
                   <a href="./tour-detail.html">
-                    <img src="./images/tour/Addis.png" class="card-img-top"  alt="...">
+                    <img src="./img/tour/Addis.png" class="card-img-top"  alt="...">
                   </a>
                   <p  class="tour-price rounded-pill py-1 px-3 position-absolute bg-primary-color text-white rounded">$ 100k</p>
                 </div>
@@ -294,7 +304,7 @@
        
         <!-- /#page-content-wrapper -->
         <div class="col-xl-3 col-lg-5 mb-5 " id="sidebar-wrapper">
-          <div class="bg-primary side-overlay mb-5" style="background-image: url('./images/tour/mahe-seychelles-2-1024x576 1.png');" class="">
+          <div class="bg-primary side-overlay mb-5" style="background-image: url('./img/tour/mahe-seychelles-2-1024x576 1.png');" class="">
             <div class="overlay-content-side d-flex align-items-end justify-content-center">
               <div class=" text-white name pb-5 ">
                 
@@ -304,7 +314,7 @@
               </div>
             </div>
           </div>
-          <div class="bg-primary side-overlay" style="background-image: url('./images/tour/Mount-Kilimanjaro-13-1024x576 1.png');" class="">
+          <div class="bg-primary side-overlay" style="background-image: url('./img/tour/Mount-Kilimanjaro-13-1024x576 1.png');" class="">
             <div class="overlay-content-side d-flex align-items-end justify-content-center">
               <div class=" text-white name pb-5 ">
                 <div  class="first  text-center">Onyebuchi</div>
@@ -324,7 +334,7 @@
               <div class="card mb-5 custom-mh" >
                 <div class="position-relative">
                   <a href="./tour-detail.html">
-                    <img src="./images/tour/victoria_and_alfred_waterfront 1.png" class="card-img-top"  alt="...">
+                    <img src="./img/tour/victoria_and_alfred_waterfront 1.png" class="card-img-top"  alt="...">
                   </a>
                   <p  class="tour-price rounded-pill py-1 px-3 position-absolute bg-primary-color text-white rounded">$ 100k</p>
                 </div>
@@ -357,7 +367,7 @@
               <div class="card mb-5 custom-mh" >
                 <div class="position-relative">
                   <a href="./tour-detail.html">
-                    <img src="./images/tour/durban 1.png" class="card-img-top"  alt="...">
+                    <img src="./img/tour/durban 1.png" class="card-img-top"  alt="...">
                   </a>
                   <p  class="tour-price rounded-pill py-1 px-3 position-absolute bg-primary-color text-white rounded">$ 100k</p>
                 </div>
@@ -389,7 +399,7 @@
               <div class="card mb-5 custom-mh" >
                 <div class="position-relative">
                   <a href="./tour-detail.html">
-                    <img src="./images/tour/knysna 1.png" class="card-img-top"  alt="...">
+                    <img src="./img/tour/knysna 1.png" class="card-img-top"  alt="...">
                   </a>
                   <p  class="tour-price rounded-pill py-1 px-3 position-absolute bg-primary-color text-white rounded">$ 100k</p>
                 </div>
@@ -421,7 +431,7 @@
               <div class="card mb-5 custom-mh" >
                 <div class="position-relative">
                   <a href="./tour-detail.html">
-                    <img src="./images/tour/Addis.png" class="card-img-top"  alt="...">
+                    <img src="./img/tour/Addis.png" class="card-img-top"  alt="...">
                   </a>
                   <p  class="tour-price rounded-pill py-1 px-3 position-absolute bg-primary-color text-white rounded">$ 100k</p>
                 </div>

@@ -56,6 +56,18 @@ body {
   color: #ffffff;
 }
 
+.dropdown-item {
+  color: #1d18187d !important;
+  text-align: left;
+  justify-content: left;
+}
+
+@media screen and (min-width: 550px) {
+  .dropdown-menu {
+    margin-left: 20px;
+  }
+}
+
 .nav-item {
   margin: 1rem 0.9rem;
 }
@@ -188,7 +200,7 @@ body {
 
 /* Masthead */
 .masthead {
-  background-image: url("/img/background.png");
+  background-image: url("/img/background.jpg");
   width: 100%;
   height: 655px;
   background-repeat: no-repeat;
@@ -284,10 +296,9 @@ body {
   }
 
   .masthead-form {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
+   margin-left: auto;
+   margin-right: 1rem ;
+    }
 }
 
 /* Lasting Memories*/
@@ -588,6 +599,7 @@ body {
 
 .footer__social {
   color: #f2f2f2ad;
+  text-align: center;
 }
 
 .footer__socialIcons a {
