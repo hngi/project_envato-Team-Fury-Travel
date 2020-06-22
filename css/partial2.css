@@ -16,7 +16,7 @@ body {
 
 /* Hero */
 .banner__hero {
-  background-image: url("../../blog/project_2/img/blog-details/guys.png");
+  background-image: url("/img/blog-details/guys.png");
   width: 100%;
   height: 500px;
   background-repeat: no-repeat;

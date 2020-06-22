@@ -24,202 +24,84 @@ body {
   border: none;
 }
 
-/* start of navbar styles */
-#mainNav {
-  background-color: #212529;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  color: #ffffff;
-}
-
-#mainNav .navbar-brand {
-  transition: font-size 0.3s ease-in-out;
-}
-
-.signin_anchor:hover {
-  text-decoration: none;
-}
-
-.navbar-brand {
-  position: relative;
-}
-
-.navbar-brand::after {
-  content: '.';
-  position: absolute;
-  font-size: 5rem;
-  bottom: -38px;
-  right: 63px;
-  color: var(--pink);
-}
-
-#navbarNav a {
-  color: #ffffff;
-}
-
-.nav-item {
-  margin: 1rem 0.9rem;
-}
-
-#navbarNav a:hover {
-  border-bottom: 0.4px solid #ffffff;
-}
-
-.navbar-dark .navbar-brand {
-  font-family: "Caveat", cursive;
-  font-size: 2rem;
-  font-weight: 700;
-  color: white;
-}
-
-.brand-color {
-  color: var(--pink);
-}
-
-.btn {
-  padding: 0.5rem 2rem !important;
-}
-
-.btn-navbar {
-  background-color: var(--pink);
-}
-
-.btn-navbar:hover {
-  background-color: transparent;
-  border: 1px solid var(--pink);
-}
-
-.btn-navbar1 {
-  color: var(--pink) !important;
-}
-
-.btn-navbar1:hover {
-  border: 1px solid var(--pink);
-}
-
-#mainNav.navbar-shrink {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #212529;
-}
-
-#mainNav.navbar-shrink .navbar-brand {
-  font-size: 1.5em;
-}
-
-#mainNav.navbar-shrink .navbar-brand svg,
-#mainNav.navbar-shrink .navbar-brand img {
-  height: 1.5rem;
-}
-
-@media screen and (min-width: 992px) {
-  #mainNav {
-    background-color: transparent;
-    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
-  }
-
-  .nav-item {
-    margin: 1rem 0.9rem;
-  }
-
-  .btn-navbar {
-    margin-left: 1rem;
-  }
-}
-
-/* end of navbar styles */
-
-/* beginning of footer styles */
-
-.footer {
-  background-color: #333333;
-}
-
-.footer__logo p {
-  color: #ffffff;
-  font-family: "Caveat", cursive;
-  font-size: 2rem;
-  position: relative;
-}
-
-.footer__logo p span {
-  position: relative;
-}
-
-.footer__logo p span::after {
-  content: ".";
-  position: absolute;
-  font-size: 5rem;
-  bottom: -45px;
-  right: 63px;
-  color: var(--pink);
-}
-
-.footers__lists a,
-.footers__lists li {
-  color: white;
-}
-
-.footers__lists ul {
-  list-style-type: none;
-}
-
-.footers__lists li {
-  padding: 0.5rem 0;
-  position: relative;
-}
-
-.footer__icon {
-  position: absolute;
-  left: -30px;
-  color: var(--pink);
-}
-
-.footer__social {
-  color: #f2f2f2ad;
-}
-
-.footer__socialIcons a {
-  color: var(--pink);
-  font-size: 1.5rem;
-  text-decoration: none;
-}
-
-.footer__socialIcons a:hover {
-  opacity: 0.6;
-}
-
-@media screen and (max-width:767px) {
-
-  .footers__list1,
-  .footers__list2 {
-    text-align: center;
-  }
-}
-
-/* end of footer styles */
-
-/* start of hero section styles */
-
-.hero__image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../img/blog-details/guys.png);
+/* Hero */
+.banner__hero {
+  background-image: url("../img/blog-details/guys.png");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  height: 542px;
+  background-attachment: scroll;
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+  max-width: 1440px;
 }
 
-.hero__caption h1 {
+.banner__hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 500px;
+  background-color: rgba(27, 8, 95, 0.336);
+  max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner__title {
   color: white;
-  text-shadow: .1rem .1rem .1rem black;
-  align-self: flex-start;
+  position: relative;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 1.5rem;
 }
 
-/* end of hero section styles  */
+.banner__sub_title {
+  color: white;
+  position: relative;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 650px) {
+  .destinations__title {
+    font-size: 4rem;
+  }
+}
+
+.footer__form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+   .footer__subscribeInfo{
+       width: 40%;
+   }
+  
+  .footer__buttonSubs{
+      background-color: var(--pink);
+      color: #ffffff;
+  }
+  
+  .form__subsbutton{
+      color: white;
+      background-color: var(--pink);
+  }
+  
+  @media screen and (max-width: 991px){
+      .footer__form{
+          flex-direction: column;
+          text-align: center;
+      }
+      .footer__subscribeInfo{
+          width: 100%;
+          margin-bottom: 2rem;
+      }
+  }
+  
 
 
 /* start of solo travellers section styles */
@@ -360,6 +242,11 @@ textarea {
   align-items: center;
   text-align: justify;
   color: #000000;
+  margin-bottom: 5.5rem;
+}
+
+.nature__card {
+  margin-bottom: 3rem;
 }
 
 .ways__to__travel {
@@ -385,6 +272,15 @@ textarea {
 /* start of media queries */
 
 @media only screen and (max-width: 1024px) and (min-width:600px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  #mainNav {
+    width: 100vw;
+  }
+  
 
   /* start of banner styles */
 
@@ -503,6 +399,30 @@ textarea {
 }
 
 @media only screen and (max-width: 600px) {
+
+  
+
+/* *{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  }
+   */
+  
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  #mainNav {
+    width: 100vw;
+  }
+
 
   /* start of overall styles */
   .card {

@@ -159,7 +159,7 @@ background-color: #ff1d58 !important;
   font-size: 2rem !important;
 }
 .banner__hero-tour-list {
-  background-image: url('../images/tour/pascal-bernardon-Y4vRJjmpsJ8-unsplash\ 1.png');
+  background-image: url('../img/tour/pascal-bernardon-Y4vRJjmpsJ8-unsplash\ 1.png');
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -172,7 +172,7 @@ background-color: #ff1d58 !important;
 }
 
 .banner__hero-tour-detail {
-  background-image: url('../images/tour/TourImage.png');
+  background-image: url('../img/tour/TourImage.png');
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -199,7 +199,7 @@ background-color: #ff1d58 !important;
 }
 
 .tour-detail-header {
-  background-image: url('../images/tour/TourImage.png'); 
+  background-image: url('../img/tour/TourImage.png'); 
   background-position: center; 
   background-size: cover;
   }

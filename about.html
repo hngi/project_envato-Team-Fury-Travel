@@ -12,7 +12,7 @@
     <!-- Bootstrap -->
     <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- hover effect -->
-    <link rel="stylesheet" href="./css/hover.min.css" />
+    <link rel="stylesheet" href="./assets/Hover/hover.min.css" />
     <!-- Core theme CSS-->
     <link href="./css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/about.css" />    
@@ -22,7 +22,7 @@
 <body class="wrapper__page">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top " id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#"> Explore <span class="brand-color">Net <span> </a>
+        <div class="container"><a class="navbar-brand" href="./index.html"> Explore <span class="brand-color">Net <span> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,9 +48,19 @@
                         <a class="nav-link" href="./blog.html">Blog</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="signin_anchor" href="./login.html">
-                            <button class="nav-link btn btn-navbar btn-block"> SIGN IN </button>
-                        </a>
+                        <div class="dropdown">
+                            <button class="btn nav-link btn btn-navbar btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Auth Pages
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="./auth_pages/signup.html">signup</a>
+                                <a class="dropdown-item" href="./auth_pages/login.html">signin</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-1.html">reset password</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-4.html">reset confirm</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-2.html">new password</a>
+                                <a class="dropdown-item" href="./auth_pages/forgetpassword-3.html">reset successful</a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -79,28 +89,28 @@
             <div class="row">
                 <div class="col-sm-3 col-md-3 col-xs-12">
                     <div class="service__element hvr-grow-shadow">
-                        <img src="images/about/truck 1.png" />
+                        <img src="img/about/truck 1.png" />
                         <h4 class="service__title">Private Transport</h4>
                         <p class="service__caption" >Lorem ipsum dolor sit amet, consec tetur adip iscing elit. Nam semfelbus vel.</p>
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3 col-xs-12">
                     <div class="service__element hvr-grow-shadow">
-                        <img src="images/about/globe 1.png" />
+                        <img src="img/about/globe 1.png" />
                         <h4 class="service__title" >Destinations</h4>
                         <p class="service__caption" >Lorem ipsum dolor sit amet, consec tetur adip iscing elit. Nam semfel um, facilisis non dapibus vel.</p>
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3 col-xs-12">
                     <div class="service__element hvr-grow-shadow">
-                        <img src="images/about/home (1) 1.png" />
+                        <img src="img/about/home (1) 1.png" />
                         <h4 class="service__title" >Great Hotels</h4>
                         <p class="service__caption" >Lorem ipsum dolor sit amet, consec tetur adip iscing elit. Nam semfel um, facilisis non dapibus vel.</p>
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3 col-xs-12">
                     <div class="service__element hvr-grow-shadow">
-                        <img src="images/about/book-open 1.png" />
+                        <img src="img/about/book-open 1.png" />
                         <h4 class="service__title" >Fast Booking</h4>
                         <p class="service__caption">Lorem ipsum dolor sit amet, consec tetur adip iscing elit. Nam semfel um, facilisis non dapibus vel.</p>
                     </div>
@@ -131,7 +141,7 @@
                 <div class="col-sm-4 col-md-4 col-xs-12">
                     <div class="team__element hvr-grow-shadow">
                         <p class="member__position">Managing Partner</p>
-                        <img src="images/about/toyin_omo.png" />
+                        <img src="img/about/toyin_omo.png" />
                         <p class="member__name" >
                             Toyin Omo
                             <span class="icon__wrap">
@@ -143,7 +153,7 @@
                 <div class="col-sm-4 col-md-4 col-xs-12">
                     <div class="team__element hvr-grow-shadow">
                         <p class="member__position">Managing Partner</p>
-                        <img src="images/about/bolu_omoniyi.png" />
+                        <img src="img/about/bolu_omoniyi.png" />
                         <p class="member__name" >
                             Bolu Omoniyi
                             <span class="icon__wrap">
@@ -155,7 +165,7 @@
                 <div class="col-sm-4 col-md-4 col-xs-12">
                     <div class="team__element hvr-grow-shadow">
                         <p class="member__position">Managing Partner</p>
-                        <img src="images/about/mark_abah.png" />
+                        <img src="img/about/mark_abah.png" />
                         <p class="member__name" >
                             Mark Abah 
                             <span class="icon__wrap">
@@ -169,7 +179,7 @@
                 <div class="col-sm-4 col-md-4 col-xs-12">
                     <div class="team__element hvr-grow-shadow">
                         <p class="member__position">Managing Partner</p>
-                        <img src="images/about/sera_john.png" />
+                        <img src="img/about/sera_john.png" />
                         <p class="member__name" >
                             Serah John
                             <span class="icon__wrap">
@@ -181,7 +191,7 @@
                 <div class="col-sm-4 col-md-4 col-xs-12">
                     <div class="team__element hvr-grow-shadow">
                         <p class="member__position">Managing Partner</p>
-                        <img src="images/about/segun_oluwole.png" />
+                        <img src="img/about/segun_oluwole.png" />
                         <p class="member__name" >
                             Mark Abah
                             <span class="icon__wrap">
