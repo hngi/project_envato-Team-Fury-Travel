@@ -45,7 +45,7 @@
     color: white;
     position: relative;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 2rem;
     margin-top: 1.5rem;
   }
 
@@ -65,7 +65,7 @@
   }
 
   @media screen and (min-width: 650px) {
-    .destinations__title {
+    .banner__title {
       font-size: 4rem;
     }
   }

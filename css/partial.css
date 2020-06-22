@@ -56,7 +56,7 @@
   }
   
   @media screen and (min-width: 650px) {
-    .destinations__title {
+    .banner__title {
       font-size: 4rem;
     }
   }
