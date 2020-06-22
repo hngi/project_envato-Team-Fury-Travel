@@ -296,9 +296,9 @@ body {
   }
 
   .masthead-form {
-   margin-left: auto;
-   margin-right: 1rem ;
-    }
+    margin-left: auto;
+    margin-right: 1rem;
+  }
 }
 
 /* Lasting Memories*/
@@ -329,6 +329,7 @@ body {
   font-weight: 700;
   padding: 0.9rem;
   margin-top: 1rem;
+  border: 2px solid var(--pink);
 }
 
 .memories__btn:hover {
@@ -467,6 +468,18 @@ body {
 .tours__image {
   margin: 0 auto;
   position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.tours__image img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.tours__image:hover img {
+  transform: scale(1.2);
 }
 
 .tours__price {
@@ -488,11 +501,6 @@ body {
   font-size: 3rem;
   font-family: "Caveat", cursive;
   letter-spacing: 4px;
-}
-
-.tours__image img {
-  width: 100%;
-  object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
