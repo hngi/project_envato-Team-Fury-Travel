@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* outline: 1px solid red; */
 
 }
 
@@ -63,6 +64,12 @@ body {
   color: white;
   position: relative;
   font-size: 1rem;
+}
+
+nav {
+  max-width: 1440px !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 650px) {
@@ -398,7 +405,13 @@ textarea {
   /* end of third column/author details and others styles */
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width:9990x) {
+  .im-fluid.tower {
+
+  }
+}
+
+@media only screen and (max-width: 767px) {
 
   
 
@@ -451,13 +464,18 @@ textarea {
     line-height: 1rem;
   }
 
+  section#solo__travellers {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   /* end of solo travellers section styles */
 
   /* start of first column/social media column styles */
 
-  .first__column__details__card {
+  .first__column__details{
     min-width: 1.25rem;
-    display: none;
+    display: none !important;
   }
 
   .second__column__details {
@@ -478,10 +496,6 @@ textarea {
 
   .tower__img img {
     height: 10rem;
-  }
-
-  .tower__img__text {
-    padding-right: 2rem;
   }
 
   .tower__img__text, .one__paragraph__card {
@@ -507,6 +521,9 @@ textarea {
     border-radius: 10px;
   }
 
+  img.img-fluid.tower {
+    display: none;
+  }
   /* end of first column/social media column styles */
 
   /* start of third column/author details and others styles */
